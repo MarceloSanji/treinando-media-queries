@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+
+
+</head>
+<body>
+    <header><h1>Menu Responsivo</h1>
+        <span id="burg" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Jobs</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">History</a>
+                </li>
+            </ul>
+        </menu>
+
+    </header>
+    <main>
+        <article>
+            <h2>Treinando menus responsivos com media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum esse, nemo quibusdam qui amet quia eius voluptas excepturi sequi temporibus ipsum dicta ullam architecto facere, unde deserunt suscipit. Corrupti, quod?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore error tempore dolorem iste debitis voluptatibus excepturi eos magni cumque, provident ducimus temporibus repellendus repudiandae. Ad fuga recusandae quia amet laudantium!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa dolorem neque blanditiis placeat? Quae, similique dolore provident, veritatis placeat, natus quibusdam iusto eaque inventore consequatur autem mollitia quisquam earum adipisci?
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rerum ab explicabo? Voluptatibus nemo iusto harum! Facere unde debitis placeat quo voluptas. Magnam voluptatibus temporibus quaerat enim praesentium cumque numquam?
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur animi molestiae sapiente illum sint repudiandae porro perspiciatis blanditiis a voluptatibus quo eveniet, veritatis nesciunt inventore molestias at eligendi. Nemo, impedit!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat blanditiis odio, aliquam minima ab veritatis expedita praesentium veniam illum ad vitae, officiis id, dolorum perferendis tenetur quae ipsum? Ipsam, nesciunt.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum perspiciatis officiis provident? Nobis velit cum, eveniet facere doloremque amet placeat iste nemo, error mollitia consectetur ipsum pariatur officiis quae autem!
+            </p>
+
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
+    
+</body>
+</html>
